@@ -21,7 +21,7 @@ class CalculateTest {
         if (s.length == 1){
             throw new Exception("Cтрока не является математической операцией");
         }
-        if (s.length > 4){
+        if (s.length > 3){
             throw new Exception("Формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)");
         }
         int a = Integer.parseInt(s[0]);
